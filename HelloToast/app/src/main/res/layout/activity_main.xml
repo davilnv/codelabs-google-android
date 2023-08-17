@@ -26,6 +26,7 @@
         android:layout_marginBottom="2dp"
         android:backgroundTint="@color/custom_blue"
         android:text="@string/button_label_count"
+        android:onClick="countUp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,7 +41,6 @@
         android:textColor="@color/custom_blue"
         android:textSize="160sp"
         android:textStyle="bold"
-        android:onClick="countUp"
         app:layout_constraintBottom_toTopOf="@+id/button_count"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
