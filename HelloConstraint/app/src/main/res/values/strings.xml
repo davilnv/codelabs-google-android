@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Constraint</string>
+    <string name="plus">Mais</string>
+    <string name="count_text">0</string>
+    <string name="minus">Menos</string>
+    <string name="zero">Zero</string>
+</resources>

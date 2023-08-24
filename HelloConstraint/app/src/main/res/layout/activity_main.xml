@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/up_button"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/custom_gray"
+            android:text="@string/plus"
+            android:onClick="plusCount" />
+
+        <Button
+            android:id="@+id/zero_button"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:text="@string/zero"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/custom_gray"
+            android:onClick="zeroCount" />
+
+        <Button
+            android:id="@+id/down_button"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:text="@string/minus"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/custom_gray"
+            android:onClick="minusCount" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="242dp"
+        android:layout_height="200dp"
+        android:background="@color/custom_gray_light"
+        android:gravity="center"
+        android:text="@string/count_text"
+        android:textColor="@color/custom_gray"
+        android:textSize="126sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
